@@ -67,10 +67,6 @@
     "react-dom": "^16.2.0",
     "uuid": "^3.0.1"
   },
-  "peerDependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  },
   "scripts": {
     "start": "webpack-dev-server --env dev",
     "dist": "del dist; webpack --env prod",
